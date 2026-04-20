@@ -1,7 +1,7 @@
 const Whyus = () => {
   return (
     <div className="w-full bg-gray-300 -z-1000 mt-3 lg:-mt-30 whyus">
-      <div className="mx-auto px-4 mt-5 textart">
+      <div className="mx-auto px-10 lg:px-25 mt-5 ">
         <div className="w-full my-5 text-center md:text-left">
           <p className="herotxt text-3xl font-medium mb-4">
             Why choose Digitalbank?
