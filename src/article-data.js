@@ -1,7 +1,7 @@
 const articleData = [
   {
     id: 1,
-    image: "src/assets/images/image-currency.jpg",
+    image: "images/image-currency.jpg",
     author: "By Claire Robinson",
     title: "Receive money in any currency with no fees",
     intro:
@@ -10,7 +10,7 @@ const articleData = [
 
   {
     id: 2,
-    image: "src/assets/images/image-restaurant.jpg",
+    image: "images/image-restaurant.jpg",
     author: "By Claire Robinson",
     title: "Receive money in any currency with no fees",
     intro:
@@ -18,7 +18,7 @@ const articleData = [
   },
   {
     id: 3,
-    image: "src/assets/images/image-plane.jpg",
+    image: "images/image-plane.jpg",
     author: "By Claire Robinson",
     title: "Receive money in any currency with no fees",
     intro:
@@ -26,7 +26,7 @@ const articleData = [
   },
   {
     id: 4,
-    image: "src/assets/images/image-confetti.jpg",
+    image: "images/image-confetti.jpg",
     author: "By Claire Robinson",
     title: "Receive money in any currency with no fees",
     intro:

@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="text-xl font-bold ">
-            <img src="src/assets/images/logo-dark.svg" alt="" />
+            <img src="images/logo-dark.svg" alt="" />
           </div>
 
           {/* Desktop Menu */}

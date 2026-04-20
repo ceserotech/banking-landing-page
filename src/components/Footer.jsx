@@ -5,14 +5,14 @@ const Footer = () => {
         <div className="w-10/10 mx-auto flex flex-col justify-center items-center md:flex-row md:justify-between gap-10 px-20">
           {/* LEFT */}
           <div className="w-3/10 flex flex-col justify-around items-center md:items-start gap-10">
-                <img src="src\assets\images\logo-light.svg" alt="" />
+                <img src="images\logo-light.svg" alt="" />
 
                 <div className="flex gap-5">
-                <img src="src\assets\images\icon-facebook.svg" alt="" />
-                <img src="src\assets\images\icon-youtube.svg" alt="" />
-                <img src="src\assets\images\icon-twitter.svg" alt="" />
-                <img src="src\assets\images\icon-pinterest.svg" alt="" />
-                <img src="src\assets\images\icon-instagram.svg" alt="" />
+                <img src="images\icon-facebook.svg" alt="" />
+                <img src="images\icon-youtube.svg" alt="" />
+                <img src="images\icon-twitter.svg" alt="" />
+                <img src="images\icon-pinterest.svg" alt="" />
+                <img src="images\icon-instagram.svg" alt="" />
                 </div>
           </div>
 

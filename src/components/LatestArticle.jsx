@@ -3,7 +3,7 @@ import articleData from "../article-data";
 const Articles = () => {
   return (
     <div className="bg-gray-50">
-      <div className="mx-auto px-4 mt-5 textart">
+      <div className="mx-auto px-1 mt-5 textart">
         <div>
           <h1 className="herotxt text-3xl my-5">Latest Articles</h1>
         </div>
