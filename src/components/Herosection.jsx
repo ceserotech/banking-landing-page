@@ -2,7 +2,7 @@ const HerosectionDesktop = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row sm:flex-col flex-col-reverse items-center justify-between gap-0 md:justify-between sm:gap-6 md:gap-6">
-        <div className="m-0 w-6/6 md:w-2/6 -mt-20 mb-10 sm:mt-5 md:mt-5 lg:ml-20 text-center md:text-left md:pl-5">
+        <div className="m-0 w-6/6 px-2 md:w-2/6 -mt-20 mb-10 sm:mt-5 md:mt-5 lg:ml-20 text-center md:text-left md:pl-5">
           <h1 className="herotxt text-6xl mb-4">
             Next generation digital banking
           </h1>
@@ -27,7 +27,7 @@ const HerosectionDesktop = () => {
           <img
             src="src\assets\images\image-mockups.png"
             alt=""
-            className="md:absolute -top-4 -right-37 lg:absolute md:top-5 md:right-3 xg:-top-50 xl:-right-37 w-6/6 md:w-3/6"
+            className="md:absolute -top-4 -right-37 lg:absolute md:top-5 md:right-3 xg:-top-50 xl:-right-37 w-6/6 md:w-3/7"
           />
         </div>
       </div>
