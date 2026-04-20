@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box  ;
+}
+body{
+    overflow-x: hidden;
+}
+.herotxt{
+    font-family: "Public Sans", sans-serif;
+}
+.myp{
+    font-family: "Kumbh Sans", sans-serif;
+}
+.texthero{
+    margin-left: 5.3rem;
+}
+.textart{
+    padding: 5.3rem;
+}
+.whyus{
+    /* margin-top: -6rem; */
+    z-index: -2000;
+    padding: 5rem 3rem;
+}
+.whytxt{
+    margin-left: 3rem;
+}
