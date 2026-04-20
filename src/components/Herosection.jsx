@@ -16,7 +16,7 @@ const HerosectionDesktop = () => {
           </button>
         </div>
 
-        <div className="w-5/5 md:w-3/6 bg-[url('images/bg-intro-mobile.svg')] sm:bg-[url('images/bg-intro-mobile.svg')] md:bg-[url('images/bg-intro-desktop.svg')] h-screen bg-cover bg-no-repeat bg-[position:0px_-200px] sm:bg-[position:0px_-100px] md:bg-[position:70px_-200px] ">
+        <div className="w-5/5 md:w-3/6 bg-[url('/images/bg-intro-mobile.svg')] sm:bg-[url('/images/bg-intro-mobile.svg')] md:bg-[url('/images/bg-intro-desktop.svg')] h-screen bg-cover bg-no-repeat bg-[position:0px_-200px] sm:bg-[position:0px_-100px] md:bg-[position:70px_-200px] ">
           {/* <img
            md:bg-[position:120%_-80px]
             
