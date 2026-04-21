@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="w-3/10 flex flex-col justify-around items-center md:items-start gap-10">
                 <img src="images\logo-light.svg" alt="" />
 
-                <div className="flex gap-5">
+                <div className="flex gap-5 justify-center md:justify-baseline">
                 <img src="images\icon-facebook.svg" alt="" />
                 <img src="images\icon-youtube.svg" alt="" />
                 <img src="images\icon-twitter.svg" alt="" />
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
 
           {/* RIGHT */}
-          <div className="w-3/10  flex justify-around flex-col items-center md:items-end gap-6">
+          <div className="w-10/10 md:w-3/10  flex justify-around flex-col items-center md:items-end gap-6">
             <button className="bg-gradient-to-r from-green-400 to-cyan-400 px-6 py-2 rounded-full">
               Request Invite
             </button>

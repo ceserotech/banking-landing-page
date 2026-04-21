@@ -22,7 +22,7 @@ export default function Navbar() {
                 <li key={link} className="relative">
                   <button
                     onClick={() => setActive(link)}
-                    className="text-gray-500 hover:text-gray-900 pb-2"
+                    className="text-gray-500 hover:text-gray-900 pb-2 cursor-pointer"
                   >
                     {link}
                   </button>
@@ -69,22 +69,17 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden px-4 pb-4">
-          <a href="#" className="block py-2 hover:text-gray-300">
-            Home
-          </a>
-          <a href="#" className="block py-2 hover:text-gray-300">
-            About
-          </a>
-          <a href="#" className="block py-2 hover:text-gray-300">
-            Projects
-          </a>
-          <a href="#" className="block py-2 hover:text-gray-300">
-            Contact
-          </a>
-        </div>
-      )}
+     {isOpen && (
+  <div className="absolute top-full left-0 w-full bg-white shadow-lg z-50 md:hidden">
+    <ul className="flex flex-col items-center py-6 space-y-4 cursor-pointer">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Blog</li>
+      <li>Careers</li>
+    </ul>
+  </div>
+)}
     </nav>
   );
 }
