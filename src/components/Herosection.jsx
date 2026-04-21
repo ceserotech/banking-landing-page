@@ -1,9 +1,9 @@
 const HerosectionDesktop = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row sm:flex-col flex-col-reverse items-center justify-between gap-0 md:justify-between sm:gap-6 md:gap-6">
-        <div className="m-0 w-6/6 px-2 md:w-2/6 -mt-38 mb-10 sm:mt-5 md:mt-5 lg:ml-20 text-center md:text-left md:pl-5">
-          <h1 className="herotxt text-6xl mb-4">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between px-0 md:px-0 py-0 gap-10">
+        <div className="flex-1 text-center md:text-left md:px-10 lg:px-30">
+          <h1 className="herotxt text-3xl md:text-5xl font-bold leading-tight">
             Next generation digital banking
           </h1>
           <p className="mb-5 myp">
@@ -16,7 +16,7 @@ const HerosectionDesktop = () => {
           </button>
         </div>
 
-        <div className="w-5/5 md:w-3/6 bg-[url('/images/bg-intro-mobile.svg')] sm:bg-[url('/images/bg-intro-mobile.svg')] md:bg-[url('/images/bg-intro-desktop.svg')] h-screen bg-cover bg-no-repeat bg-[position:0px_-200px] sm:bg-[position:0px_-100px] md:bg-[position:70px_-200px] ">
+        <div className="flex-1 flex justify-center md:justify-end w-full px-0 bg-[url('/images/bg-intro-mobile.svg')] sm:bg-[url('/images/bg-intro-mobile.svg')] md:bg-[url('/images/bg-intro-desktop.svg')] bg-cover bg-no-repeat bg-[position:0px_-200px] sm:bg-[position:0px_-100px] md:bg-[position:70px_-200px]">
           {/* <img
            md:bg-[position:120%_-80px]
             
@@ -27,7 +27,7 @@ const HerosectionDesktop = () => {
           <img
             src="images\image-mockups.png"
             alt=""
-            className="md:absolute -top-4 -right-37 lg:absolute md:top-5 md:right-3 xg:-top-50 xl:-right-37 w-6/6 md:w-3/7"
+            className="w-full max-w-sm md:max-w-lg p-0"
           />
         </div>
       </div>
